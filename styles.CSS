@@ -10,6 +10,8 @@ body {
 h1 {
 	margin-top:0px;
 	text-align:center;
+	font-family:Georgia;
+	text-shadow: 1px 1px #C0C0C0;
 }
 #contentContainer {
 	font-family:Arial, Helvetica, sans-serif;
