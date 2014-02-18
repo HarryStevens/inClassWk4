@@ -4,7 +4,8 @@
 console.log('testing js');
 
 /*
- * This function will load the json file
+ * This function will operate on the loaded JSON file (see $.get in dataLoaded), 
+ * which I'll call FREDdata.
  */
 function loadedJSON(FREDdata){
 	//console log the "count" property of our FREDdata object.
@@ -29,6 +30,8 @@ function dataLoaded(){
 	
 	//jQuery, grab the div with the id "contentContainer"
 		//and put the new div inside it.
+	//I expect to see a new div containing the text "This is my new div"
+		//inside the contentContainer.
 	$("#contentContainer").append(myDiv);
 	
 	//use the jQuery get function to load my JSON file, takes 3 parameters
